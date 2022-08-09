@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lmq/slambook/homework/ch4/useSophus/useSophus.cpp
+iostream
+-
+cmath
+-
+eigen3/Eigen/Core
+-
+eigen3/Eigen/Geometry
+-
+sophus/so3.h
+/home/lmq/slambook/homework/ch4/useSophus/sophus/so3.h
+sophus/se3.h
+/home/lmq/slambook/homework/ch4/useSophus/sophus/se3.h
+
